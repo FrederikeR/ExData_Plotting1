@@ -1,5 +1,3 @@
-setwd("C:/Users/user/Desktop/Coursera R")
-
 # loading data into R
 data <- read.table("household_power_consumption.txt", header=T, sep=";",  
                    na.strings="?", stringsAsFactors=F, comment.char="", quote='\"', nrows=2075259)
